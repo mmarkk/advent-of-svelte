@@ -6,8 +6,14 @@
 
 	let list = data.items;
 
+	type item = {
+		name: string;
+		weight: number;
+		selected: boolean;
+	};
+
 	// add selected: false to each item in the list
-	list = list.map((item) => {
+	list = list.map((item: item) => {
 		return {
 			...item,
 			selected: false
@@ -16,7 +22,7 @@
 
 	$: totalWeight = 0;
 
-	function addWeight(item) {
+	function addWeight(item: item) {
 		if (item.selected) {
 			item.selected = false;
 			totalWeight -= item.weight;
