@@ -9,4 +9,5 @@
 	<a href="/one" class="logo-item">Day 1</a>
 	<a href="/two" class="logo-item">Day 2</a>
 	<a href="/three" class="logo-item">Day 3</a>
+	<a href="/four" class="logo-item">Day 4</a>
 </div>
