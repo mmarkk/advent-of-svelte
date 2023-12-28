@@ -1,12 +1,4 @@
 <script lang="ts">
-	import type { PageData } from './$types';
-
-	export let data: PageData;
-
-	// get the value returned from https://advent.sveltesociety.dev/data/2023/day-four.json every second
-	// and display it in the heart rate monitor
-	import { fade } from 'svelte/transition';
-
 	interface HistoryItem {
 		// Define the structure of your history items here
 		// timestamp: Date;
