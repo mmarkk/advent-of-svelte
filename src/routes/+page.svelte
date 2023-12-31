@@ -10,4 +10,5 @@
 	<a href="/two" class="logo-item">Day 2</a>
 	<a href="/three" class="logo-item">Day 3</a>
 	<a href="/four" class="logo-item">Day 4</a>
+	<a href="/five" class="logo-item">Day 5</a>
 </div>
